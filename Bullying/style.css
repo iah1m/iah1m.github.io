@@ -23,13 +23,18 @@ html, body
     top:0;
     min-height:60%;
     min-width:90%;
+    font-size: 64px;
+    text-align: center;
 }
 
 #buttonsWrapper
 {
+    position:fixed;
     top:60%;
     min-height:20%;
     min-width:90%;
+    align-content: center;
+    left:20%;
 }
 .button {
     background-color: #170936;
@@ -38,7 +43,8 @@ html, body
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 32px;
     cursor: pointer;
+    padding: 15px 32px;
+    margin: auto;
   }
