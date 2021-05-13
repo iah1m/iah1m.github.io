@@ -1,0 +1,44 @@
+html, body
+{
+    height: 95%;
+    min-height: 95%;
+    margin:0;
+    padding:0;
+    background-color: rgb(70, 68, 68);
+    color: white;
+}
+
+#mainWrapper
+{
+    position:fixed;
+    min-height:90%;
+    min-width:90%;
+    margin:0;
+    padding:0;
+}
+
+#textWrapper
+{
+    position:fixed;
+    top:0;
+    min-height:60%;
+    min-width:90%;
+}
+
+#buttonsWrapper
+{
+    top:60%;
+    min-height:20%;
+    min-width:90%;
+}
+.button {
+    background-color: #170936;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
