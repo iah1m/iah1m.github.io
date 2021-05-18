@@ -10,7 +10,7 @@ window.onload=function setButtons()
   cardTexts.push('In curtea scolii vedeti un baietel impins constant de catre trei colegi mai mari. Cum reactionati in aceasta situatie?');
   cardTexts.push('Arata-ne cum reactionezi la o gluma proasta.');
   cardTexts.push('La scoala va simtiti jignit de anumite cuvinte rostite in timpul orei. Cum procedati in continuare? ');
-  cardTexts.push('In pauza mare va intoarceti in clasa si gasiti o muscatura mare, in sandwich-ul vostru. Un coleg se uita amuzat la reactia ta. Ce reactie aveti?');
+  cardTexts.push('In pauza mare va intoarceti in clasa si gasiti o muscatura mare, in sandwich-ul vostru. Un coleg se uita amuzat la reactia voastra. Ce reactie aveti?');
   cardTexts.push('Considerati jignitor un anumit cuvant, legat de aspectul vostru fizic sau vestimentar?');
   cardTexts.push('Considerati jignitor un anumit cuvant, care pentru altii nu reprezinta ceva special?');
   cardTexts.push('Considerati jignitor un anumit cuvant, care pentru altii nu reprezinta ceva special?');
@@ -48,6 +48,7 @@ window.onload=function setButtons()
   function resetCards() 
   {
     setWorkArray();
+    document.getElementById("textWrapper").innerHTML=" "; 
   }
 
 

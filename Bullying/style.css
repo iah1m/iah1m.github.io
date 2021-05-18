@@ -15,26 +15,31 @@ html, body
     min-width:90%;
     margin:0;
     padding:0;
+	display:grid;
+	grid-template-columns: minmax(95%,5%);
+    grid-template-rows:minmax(80%,15%) minmax(20%,15%);;
 }
 
 #textWrapper
 {
-    position:fixed;
+    
     top:0;
     min-height:60%;
     min-width:90%;
     font-size: 64px;
     text-align: center;
+	
 }
 
 #buttonsWrapper
 {
-    position:fixed;
-    top:60%;
+   
     min-height:20%;
     min-width:90%;
     align-content: center;
-    left:20%;
+    display:grid;
+	grid-template-rows: minmax(95%,5%);
+    grid-template-columns: minmax(50%,5%) minmax(50%,5%);
 }
 .button {
     background-color: #170936;
