@@ -15,9 +15,6 @@ html, body
     min-width:90%;
     margin:0;
     padding:0;
-	display:grid;
-	grid-template-columns: minmax(95%,5%);
-    grid-template-rows:minmax(80%,15%) minmax(20%,15%);;
 }
 
 #textWrapper
@@ -28,6 +25,27 @@ html, body
     min-width:90%;
     font-size: 64px;
     text-align: center;
+	position:fixed;
+	padding:0;
+	margin:0;
+	left:50%;
+	transform:translate(-50%,-0%);
+	
+}
+
+#attentionWrapper
+{
+    
+    min-height:60%;
+    min-width:90%;
+    font-size: 32px;
+    text-align: center;
+	position:fixed;
+	padding:0;
+	margin:0;
+	top:80%;
+	left:50%;
+	transform:translate(-50%,-10%);
 	
 }
 
@@ -36,10 +54,12 @@ html, body
    
     min-height:20%;
     min-width:90%;
-    align-content: center;
-    display:grid;
-	grid-template-rows: minmax(95%,5%);
-    grid-template-columns: minmax(50%,5%) minmax(50%,5%);
+	position:fixed;
+	top:60%;
+	left:60%;
+	padding:0;
+	margin:0;
+	transform:translate(-40%,-20%);
 }
 .button {
     background-color: #170936;
